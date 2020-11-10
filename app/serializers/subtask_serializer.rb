@@ -1,4 +1,3 @@
 class SubtaskSerializer < ActiveModel::Serializer
-  attributes :id, :title, :completion_status
-  #belongs_to :task
+  attributes :id, :title, :completion_status, :task_id
 end
